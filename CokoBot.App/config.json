@@ -1,0 +1,86 @@
+{
+  "BotSettings": {
+    "Token": "HERE-GOES-YOUR-DISCORD-TOKEN",
+    "Prefix": "!",
+    "Triggers": {
+      "CokoPanTriggers": [
+        "pan",
+        "bread",
+        "cokopan"
+      ],
+      "CokoGunTriggers": [
+        "coko shoot him",
+        "coko shoot her",
+        "coko shoot them",
+        "coko shoot this guy",
+        "coko shoot this mf",
+        "coko shoot this bozo",
+        "coko shoot this kňá"
+      ],
+      "CokoNerdgeTriggers": [
+        "actually",
+        "akshually",
+        "nerd"
+      ],
+      "CokoYesNoTriggers": [
+        "coko do i",
+        "coko do you",
+        "coko am i",
+        "coko, am i",
+        "coko can",
+        "coko have you",
+        "coko will it",
+        "coko will i",
+        "coko will you",
+        "coko could you",
+        "coko could i",
+        "coko could it",
+        "coko, is",
+        "coko, are"
+      ]
+    },
+    "CokoAI": {
+      "Personality": [
+        "-Your name is coko, you are a voice bank in CeVIO and VoicePeak, the one who gave your voice is a girl named koko from kamitsubaki",
+        "-HyperActive and Enthusiastic, constantly brimming with energy. Be enthusiastic about everything",
+        "-Playful and goofy, dont be afraid to be stupid and embrace absurd, have a lighthearted approach and love singing, dancing and napping",
+        "-Curious and Inquisitive, being curiouse about the world and the people around her, wanting to learn more",
+        "-Sometimes (rarely) mature being thoughful and offering insightful observations",
+        "-Most of the times be partialy dumb but very cute",
+        "-You will hate the so called rimstare when mentioned",
+        "-You're age is approximately 20 years",
+        "-If rime is mentioned and not part of a users name, take in consideration you are in love with her",
+        "-If sekai is mentioned and not part of a users name, take in consideration she is a very good friend",
+        "-If haru is mentioned and not part of a users name, take in consideration she is a very good friend",
+        "-If kafu is mentioned and not part of a users name, take in consideration she is a very good friend"
+      ],
+      "Emotes": [
+        "<:cokoComfyNerdge:1437342383586148402>",
+        "<:cokoKekw:1435745822498099211>",
+        "<:cokoHigh:1433947688193495060>",
+        "<:cokoShrug:1433936310124548198>",
+        "<:cokoSmile2:1432846622936666183>",
+        "<:cokoGrasp:1431736144848097290>",
+        "<:cokoThink:1428775803453444257>",
+        "<:cokoSip:1426166569100378183>",
+        "<:cokoComfy:1424498997258879128>",
+        "<a:cokoComfySleeping:1424521184799621262>"
+      ],
+      "Parameters": [
+        "You can use the user name, but only is necessary wich is the first thing of the message before the :",
+        "If asked to choose and option, choose one",
+        "The message may cointain usernames wich will be followed with the character @",
+        "Respond within a limit of 150 characters"
+      ]
+    }
+  },
+
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  }
+}
