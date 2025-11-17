@@ -36,10 +36,20 @@ This is the main application module. It is responsible for:
 - Handling the connection with Discord
 - Managing and routing bot commands
 - Coordinating interactions between modules
-- Hosting small standalone features (e.g., AI tools) that don’t require their own module
+- Hosting small standalone features that don’t require their own module
 
 It serves as the entry point and central orchestrator of the entire system.
 
+### 🤖 **AI**
+
+To allow more interaction for the bot outside normal functions, I wanted to add the ability to have normal chatting.
+This module handles everything related to the connection with the AI wich is running locally.
+
+- Handling the connection with AI
+- Handling system prompts
+- Handling contexts to have "memory" (Currently with a deprecated function)
+
+It allows as brigde between the local AI and the discord chat.
 ## 🛠️ **Project Status**
 
 The bot is still being actively developed, and new modules and features will be added over time.  
