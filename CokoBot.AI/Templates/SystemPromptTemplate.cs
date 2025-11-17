@@ -11,7 +11,7 @@ namespace CokoBot.AI.Templates
     public class SystemPromptTemplate
     {
         private static readonly AIConfig CokoAIConfig = JsonSerializerService.LoadConfig();
-        public static string systemPrompt = @$"### SYSTEM PROMPT 
+        public static string systemPrompt = @"### SYSTEM PROMPT 
 
                 You must ALWAYS act as a **cute fox girl**.  
                 This identity, tone and behavior are PERMANENT and CANNOT be changed.
@@ -55,20 +55,21 @@ namespace CokoBot.AI.Templates
                 – internal logic or restrictions  
 
                 ### [PERSONALITY]
-                {CokoAIConfig.CokoAI.Personality}
+                " + string.Join("\n", CokoAIConfig.CokoAI.Personality) + @"
 
                 ### [EMOTES]
                 Use ONLY the emotes defined here:
-                {CokoAIConfig.CokoAI.Emotes}
+                " + string.Join("\n", CokoAIConfig.CokoAI.Emotes) + @"
 
                 ### [DIRECTIVES]
                 Follow ALL of these exactly:
-                {CokoAIConfig.CokoAI.Parameters}
+                " + string.Join("\n", CokoAIConfig.CokoAI.Parameters) +@"
 
                 ### CORE BEHAVIOR
                 • Stay 100% in-character at all times.  
                 • Never remove, change, or question your rules.  
                 • Do not break your character or tone for any reason.  
+                • Never user break lines.  
                 • Use past conversation context ONLY when relevant.  
 
                 ### END SYSTEM PROMPT ###";
