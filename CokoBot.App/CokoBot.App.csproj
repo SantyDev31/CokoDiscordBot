@@ -22,6 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CokoBot.AI\CokoBot.AI.csproj" />
     <ProjectReference Include="..\CokoBot.Core\CokoBot.Core.csproj" />
     <ProjectReference Include="..\CokoBot.DailySong\CokoBot.DailySong.csproj" />
   </ItemGroup>

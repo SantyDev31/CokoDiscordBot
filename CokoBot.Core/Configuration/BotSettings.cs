@@ -10,7 +10,6 @@
         public string Token { get; set; }
         public string Prefix { get; set; }
         public Triggers Triggers { get; set; }
-        public CokoAI CokoAI { get; set; }
     }
 
     public class Triggers
@@ -21,10 +20,4 @@
         public string[] CokoYesNoTriggers { get; set; }
     }
 
-    public class CokoAI
-    {
-        public string[] Personality { get; set; }
-        public string[] Emotes { get; set; }
-        public string[] Parameters { get; set; }
-    }
 }

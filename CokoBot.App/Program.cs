@@ -34,8 +34,8 @@ namespace CokoBot.App
                 LoggerFactory = Startup.ILoggerFactory,
             });
 
-            Startup.AppSettings.BotSettings.Token = null;
-            
+            Startup.AppSettings.BotSettings.Token = "mitemite";
+
             DClient.Ready += OnBotReady;
             DClient.MessageCreated += OnMessageCreated;
 

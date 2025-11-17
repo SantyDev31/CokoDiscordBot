@@ -44,9 +44,6 @@ namespace CokoBot.App
             services.AddSingleton(IConfiguration);
             services.AddSingleton(ILoggerFactory);
 
-            //var saucenaoSettings = SaucenaoApi;
-            //services.AddSingleton(new SaucenaoApi(saucenaoSettings.ApiKey));
-
             services.AddLogging();
             return services.BuildServiceProvider();
         }

@@ -1,4 +1,4 @@
-﻿using CokoBot.App.CokoIA;
+﻿using CokoBot.AI;
 using DSharpPlus;
 using DSharpPlus.EventArgs;
 using System;
@@ -35,7 +35,16 @@ namespace CokoBot.App.Commands
         [Command("coko")]
         public async Task CokoAICommand(string msg, MessageCreateEventArgs @event)
         {
-            string response = await HTTPConnection.SendPrompt($"{@event.Message.Author}:{msg}");
+            await @event.Channel.TriggerTypingAsync();
+            string response = "";
+            if (@event.Guild != null)
+            {
+                response = await LLMClient.SendPrompt(@event.Guild.Id, $"¿{@event.Message.Author.Username}¿:{msg}", true);
+            }
+            else
+            {
+                response = await LLMClient.SendPrompt(@event.Author.Id, $"¿{@event.Message.Author.Username}¿:{msg}", false);
+            }
             await @event.Channel.SendMessageAsync($"{response}");
         }
     }

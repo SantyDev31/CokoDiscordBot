@@ -8,7 +8,8 @@ namespace CokoBot.App
     {
         public static async Task SendSong()
         {
-            ulong channelId = //Here goes the channel you want to have for the daily recommendations;
+            //CHANNEL ID FOR THE DAILY RECOMMENDATION
+            ulong channelId = 0;
 
             var channel = await Program.DClient.GetChannelAsync(channelId);
 
