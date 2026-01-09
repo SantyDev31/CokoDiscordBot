@@ -59,3 +59,4 @@ CodeCoverage/
 TestResult.xml
 nunit-*.xml
 
+/CokoBot.DailySong/Infrastructure/Persistence/songs.db

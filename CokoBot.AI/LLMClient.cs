@@ -10,7 +10,7 @@ namespace CokoBot.AI
 {
     public class LLMClient
     {
-        private static readonly HttpClient httpClient = new HttpClient();
+        public static readonly HttpClient httpClient = new HttpClient();
         private static readonly string generateURL = "http://localhost:11434/api/generate";
         private static readonly string modelStr = "gemma3:4B";
         public static async Task<string> SendPrompt(ulong userID, string prompt, bool isServer)

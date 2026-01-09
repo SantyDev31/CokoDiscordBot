@@ -55,8 +55,31 @@ It allows as brigde between the local AI and the discord chat.
 The bot is still being actively developed, and new modules and features will be added over time.  
 Feedback, suggestions, and contributions are always welcome.
 
+### To Do
+[x] Improve the architecture
+[] Add a web based dashboard
+[] Allow commands modification through the web
+
+## 📔 **SetUp**
+This bot mas made specifically for the **"Empire of Coko"**, which means that the actual code may not be very fitting for its use
+on other servers. But, triggers are easy to changer but it will requiere to code a bit.
+
+In case you want to use the bot in local, first you will need to set the api token with the following commands in the App folder:
+```powershell
+dotnet user-secrets init
+dotnet user-secrets set "BotSettings:Token" "YOUR-TOKEN"
+```
+Then you'll need to access inside of App -> Infrastructure -> Configuration -> config.json and set the parameters
+```json
+"Prefix": "[The-Prefix-You-Want]"
+"DailyCokoChannel": ID-for-the-channel-you-want-the-daily-song-going-to,
+"OwnerId": Your-Discord-ID
+```
+In case you want to use the AI functions, you will need to configure an ollama enviroment, with the model you want.
+Remember to put the name correctly on LLMClient.cs
+
 ## **Tech Stack**
-- C# (.NET 9)
+- C# (.NET 10)
 - DSharpPlus
-- SQLite
+- SQLite 3
 - Python (utility scripts)

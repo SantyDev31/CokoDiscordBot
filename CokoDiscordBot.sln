@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 18
-VisualStudioVersion = 18.0.11205.157 d18.0
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokoBot.App", "CokoBot.App\CokoBot.App.csproj", "{D243E6D6-54D7-4DF2-8ECB-98F8D9D3FA23}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -11,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokoBot.Core", "CokoBot.Core\CokoBot.Core.csproj", "{680C1D75-541E-4B6F-841E-6E6D9A5B7597}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokoBot.DailySong", "CokoBot.DailySong\CokoBot.DailySong.csproj", "{0D492D3E-BEBA-4E17-BC89-A5F588734EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokoBot.PlayMusic", "CokoBot.PlayMusic\CokoBot.PlayMusic.csproj", "{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CokoBot.AI", "CokoBot.AI\CokoBot.AI.csproj", "{3FF16CA3-6BDC-410D-A20D-3C5BD7B34441}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -63,6 +65,18 @@ Global
 		{0D492D3E-BEBA-4E17-BC89-A5F588734EA4}.Release|x64.Build.0 = Release|Any CPU
 		{0D492D3E-BEBA-4E17-BC89-A5F588734EA4}.Release|x86.ActiveCfg = Release|Any CPU
 		{0D492D3E-BEBA-4E17-BC89-A5F588734EA4}.Release|x86.Build.0 = Release|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Debug|x64.Build.0 = Debug|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Debug|x86.Build.0 = Debug|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Release|x64.ActiveCfg = Release|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Release|x64.Build.0 = Release|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Release|x86.ActiveCfg = Release|Any CPU
+		{54B407D3-BC00-4912-93A7-F1DE6A7E26D5}.Release|x86.Build.0 = Release|Any CPU
 		{3FF16CA3-6BDC-410D-A20D-3C5BD7B34441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3FF16CA3-6BDC-410D-A20D-3C5BD7B34441}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3FF16CA3-6BDC-410D-A20D-3C5BD7B34441}.Debug|x64.ActiveCfg = Debug|Any CPU

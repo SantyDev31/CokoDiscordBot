@@ -1,0 +1,87 @@
+{
+  "BotSettings": {
+    "Prefix": "!",
+    "DailyCokoChannel": 0,
+    "OwnerId": 0,
+    "Triggers": {
+      "CokoPan": [
+        "pan",
+        "bread",
+        "cokopan",
+        "p*n",
+        "*an",
+        "p□n",
+        "pa🇳",
+        "p.a.n",
+        "p@n",
+        "pa^n",
+        "pªn",
+        "paŋ",
+        "p&n",
+        "𝓹𝓪𝓷",
+        "p+an",
+        "p|a|n",
+        "pa.n",
+        "p.an",
+        "pａn",
+        "p(a)n",
+        "p_n",
+        "*****",
+        "***",
+        "p?n",
+        "pa*",
+        "bre*d"
+      ],
+      "CokoGun": [
+        "coko shoot him",
+        "coko shoot her",
+        "coko shoot them",
+        "coko shoot this guy",
+        "coko shoot this mf",
+        "coko shoot this bozo",
+        "coko shoot this kňá"
+      ],
+      "CokoNerdge": [
+        "actually",
+        "akshually",
+        "nerd"
+      ],
+      "CokoGrok": [
+        "@grok",
+        "chatgpt",
+        "gpt"
+      ],
+      "CokoTired": [
+        "odover",
+        "o*er",
+        "ov*r",
+        "tired",
+        "over"
+      ],
+      "CokoYesNo": [
+        "coko do i",
+        "coko do you",
+        "coko am i",
+        "coko, am i",
+        "coko can",
+        "coko have you",
+        "coko will it",
+        "coko will i",
+        "coko will you",
+        "coko could you",
+        "coko could i",
+        "coko could it",
+        "coko, is",
+        "coko, are"
+      ]
+    }
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Debug",
+      "System": "Information",
+      "Microsoft": "Information"
+    }
+  }
+}
